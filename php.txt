@@ -1,0 +1,17 @@
+<?php
+$nota1 = 8;
+$nota2 = 7;
+$nota3 = 6;
+$media=($nota1+$nota2+$nota3)/3;
+if ($media>= 8) {
+$status="Aprovado!";
+} else{ 
+$status="Reprovado!";
+}
+
+echo "nota 1: $nota1 \n";
+echo "nota 2: $nota2 \n";
+echo "nota 3: $nota3 \n";
+echo "media:". Number_format($media, 2)."\n";
+echo "situação: $status\n";
+?>
